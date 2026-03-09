@@ -31,6 +31,22 @@ Welcome to my GitHub! I am a passionate developer focusing on **LLM Agents**, **
 
 ### 🔥 Featured Projects & Experiences
 
+#### **CompanyCopilot**
+*Enterprise Knowledge Base & Multi-Agent Research Copilot*
+
+- Built a full-stack **AI Copilot platform** for enterprise research and knowledge management, integrating **Chatbot UI** frontend with an **AgentScope-based multi-agent backend**.
+- Implemented **RAG-powered knowledge base QA**, enterprise background investigation, and rapid due-diligence reporting with **SSE streaming generation**.
+
+- Designed the **RAG ingestion pipeline** supporting multi-format documents (PDF/Word/Excel/PPT/MD/CSV/images); applied **paragraph split + 512-token chunking** for text and multimodal captioning for images to balance semantic integrity and retrieval granularity.
+
+- Optimized **embedding & retrieval architecture** using **DashScope qwen3-vl-embedding (2560-dim)** to unify text-image representations; deployed **Qdrant** with collection isolation per knowledge base and retrieval via **Top-K + score threshold**, enabling efficient cross-KB search and source traceability.
+
+- Architected a **multi-agent workflow** using **AgentScope**, defining roles including **Researcher, Analyst, Compiler, and Guidance** to form a closed loop from **task routing → evidence collection → analysis → structured report generation**.
+
+- Implemented **Function Calling + Skills + Slash Commands** via **ReActAgent + Toolkit**, enabling agents to trigger retrieval tools and external APIs; formalized an **8-dimension enterprise due-diligence workflow** in `SKILL.md` and mapped user intents to pipelines such as `/research` and `/due-diligence`.
+
+- Integrated **external data augmentation** through **Firecrawl MCP search**, enabling the Researcher agent to perform parallel web discovery (official sites, news, products, funding data), improving factual grounding and coverage of generated reports.
+
 #### [**Jury LLM**](https://github.com/wzhnbsixsixsix/Jury_LLM)
 *Human-AI Mixed Alignment Multi-Role Evaluation System*
 - Built a multi-dimensional "Jury + Human-in-the-loop" scoring system using **AgentScope**.
