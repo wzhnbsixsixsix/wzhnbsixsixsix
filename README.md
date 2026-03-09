@@ -31,7 +31,7 @@ Welcome to my GitHub! I am a passionate developer focusing on **LLM Agents**, **
 
 ### 🔥 Featured Projects & Experiences
 
-#### **CompanyCopilot**
+#### [**CompanyCopilot**](https://github.com/wzhnbsixsixsix/CompanyCopilot)
 *Enterprise Knowledge Base & Multi-Agent Research Copilot*
 
 - Built a full-stack **AI Copilot platform** for enterprise research and knowledge management, integrating **Chatbot UI** frontend with an **AgentScope-based multi-agent backend**.
